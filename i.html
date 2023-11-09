@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym Website</title>
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital@1&display=swap" rel="stylesheet">
+<style>
+    body {
+        color: white;
+        margin: 0;
+        padding: 0;
+        background: url('img/bg.jpg');
+        background-size: 2000px 1100px;
+        height: 900px;
+        font-family: 'Balsamiq Sans', cursive;
+    }
+
+    .left {
+        /* border: 3px solid rgb(239, 10, 10); */
+        display: inline-block;
+        position: absolute;
+        top: 20px;
+        left: 30px;
+
+    }
+
+    .mid {
+        /* border: 3px solid rgb(33, 25, 172); */
+        width: 36%;
+        margin: 40px auto;
+        display: block;
+
+    }
+
+    .right {
+        /* border: 3px solid rgb(25, 177, 116); */
+        position: absolute;
+        display: inline-block;
+        top: 20px;
+        right: 30px;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 20px;
+
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 25px 10px;
+    }
+
+    .navbar li a:hover {
+        text-decoration: underline;
+        color: rgb(66, 69, 69);
+    }
+
+    .left img {
+        width: 53px;
+        padding: 2px;
+        margin-left: 80px;
+    }
+
+    .left div {
+        text-align: center;
+        line-height: 20px;
+        font-size: 25px;
+    }
+
+    .btn {
+        margin: 10px 10px;
+        background-color: black;
+        color: white;
+        padding: 5px 15px;
+        border: 2px solid grey;
+        cursor: pointer;
+        border-radius: 7px;
+        font-size: 20px;
+        font-family: 'Balsamiq Sans', cursive;
+    }
+
+    .btn:hover {
+        background-color: grey;
+
+    }
+
+    .container {
+        border: 2px solid rgb(233, 240, 240);
+        margin: 120px 110px;
+        padding: 91px;
+        border-radius: 28px;
+        width: 33%;
+
+    }
+
+    .form-group input {
+        text-align: center;
+        display: block;
+        width: 250px;
+        padding: 6px;
+        border: 3px solid black;
+        margin: 5px auto;
+        font-size: 20px;
+        border-radius: 10px;
+    }
+
+    .container h1 {
+        text-align: center;
+    }
+
+    .container button {
+        display: block;
+        width: 42%;
+        margin: 15px auto;
+
+    }
+</style>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="img/sports.jpg" alt="">
+            <div>Body Fitness Center</div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">Fitness Center</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">About Us</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn">Call Us Now</button>
+            <button class="btn">Email Us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join the best Gym of Ghaziabad</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Name">
+                <input type="text" name="" placeholder="Enter your Age">
+                <input type="text" name="" placeholder="Enter your Gender">
+                <input type="text" name="" placeholder="Enter your Locality">
+                <input type="text" name="" placeholder="Enter your Mobile No.">
+                <input type="text" name="" placeholder="Enter your Email id">
+                <button class="btn">Submit</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
